@@ -3,7 +3,7 @@ from tkinter import *
 myWindows = Tk()
 myWindows.minsize(width=450, height=300)
 
-myLabel = Label(text="enter your Weight(kg)")
+myLabel = Label(text="Enter your Weight(kg)")
 myLabel.pack()
 
 myResultLabel = Label()
@@ -12,10 +12,10 @@ myWeightEntry = Entry()
 myWeightEntry.config(width=10)
 myWeightEntry.pack()
 
-myLabel2 = Label(text="enter your Height(m)")
+myLabel2 = Label(text="Enter your Height(m)")
 myLabel2.pack()
 
-# weight entry
+
 myHeightEntry = Entry()
 myHeightEntry.config(width=10)
 myHeightEntry.pack()
